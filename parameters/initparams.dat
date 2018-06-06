@@ -1,0 +1,25 @@
+# Number of agents
+NumberOfAgents=100
+# Length of the simulated experiment (s)
+# 
+Length=600.0
+# Initial sizes (cm)
+InitialX=25000.0
+InitialY=25000.0
+InitialZ=0.0
+# Accuracy of the Euler method (s)
+# v(t+delta_t) = v(t) + a(t)*delta_t
+DeltaT=0.01
+# Radius of dangerous area around copters (cm)
+# If distance between agents is below "Radius", then 
+# a collision occurs.
+Radius=300.0
+#
+# Length to store in memory (s)
+# Larger stored length means faster running,
+# but more allocated memory
+LengthToStore=15.0
+#
+# Default speed of visualization
+VizSpeedUp=20
+StartOfSteadyState=0

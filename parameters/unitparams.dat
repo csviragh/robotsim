@@ -1,0 +1,24 @@
+# Relaxation times of PID Controller (s)
+tau_PID_XY=1.000000
+tau_PID_Z=1.000000
+# Maximum Value of acceleration (cm / s^2)
+a_max=600.000000
+# Comm. range (cm)
+R_C=10000.000000
+# Delay of comm. (s)
+t_del=1.000000
+# GPS refresh rate (s)
+t_GPS=0.200000
+# Parameters of inner noises (cm^2 / s^2)
+Sigma_GPS_XY=50.000000
+Sigma_GPS_Z=0.000000
+# Parameters of outer noises (cm^2 / s^3)
+Sigma_outer_XY=2000.000000
+Sigma_outer_Z=0.000000
+Wind_Magn_Avg=0.000000
+Wind_StDev=0.000000
+Wind_Angle=0.000000
+# Packet Loss Ratio (0-1)
+Packet_Loss_Ratio=0.000000
+# Packet Loss Distance (cm)
+Packet_Loss_Distance=8000.000000

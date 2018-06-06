@@ -1,0 +1,38 @@
+# Preferred SPP velocity (Multiply it with 0.010000 to get its Value in m/s)
+V_Flock=400.000000
+# Maximum repulsion velocity (Multiply it with 0.010000 to get its Value in m/s)
+V_Rep=619.664000
+# Friction velocity slack (Multiply it with 0.010000 to get its Value in m/s)
+V_Frict=50.000000
+# Maximum velocity (Multiply it with 0.010000 to get its Value in m/s)
+V_Max=800.000000
+# Equilibrium distance (Multiply it with 0.010000 to get its Value in m)
+R_0=2566.680000
+# Friction range (Multiply it with 0.010000 to get its Value in m)
+R_0_Offset_Frict=1000.000000
+# Shill dist offset (Multiply it with 0.010000 to get its Value in m)
+R_0_Shill=0.000000
+# Slope of repulsion (1/s)
+Slope_Rep=0.400000
+# Slope of friction (1/s)
+Slope_Frict=0.400000
+# Acc limit of Friction (Multiply it with 0.010000 to get its Value in m/s^2)
+Acc_Frict=250.000000
+# Slope of wall (1/s)
+Slope_Shill=0.400000
+# Velocity of shill agents (Multiply it with 0.010000 to get its Value in m/s)
+V_Shill=652.174000
+# Acc limit of shill (Multiply it with 0.010000 to get its Value in m/s^2)
+Acc_Shill=250.000000
+# Arena Radius (Multiply it with 0.010000 to get its Value in m)
+ArenaRadius=23000.000000
+# Friction coefficient (-)
+C_Frict=0.023802
+# Arena Center X (Multiply it with 0.010000 to get its Value in m)
+ArenaCenterX=0.000000
+# Arena Center Y (Multiply it with 0.010000 to get its Value in m)
+ArenaCenterY=0.000000
+# Shape of the arena (Multiply it with 0.000000 to get its real Value)
+ArenaShape=1.000000
+# Number of dimensions in the simulation (2 or 3)
+Dim=2.000000

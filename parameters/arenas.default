@@ -1,0 +1,47 @@
+#
+# Arenas for different algorithms
+# ArenaShape can be changed using the F4 key during visualization
+# Coordinate values have to be multiplied with "ArenaSize" 
+# (see flocking parameter file for its current value)
+#
+# Points of an arena should be listed in CW order
+#
+#
+
+# Note that shapes CIRCLE and SQUARE are reserved and automatically defined
+# for ArenaShape 0 and 1
+
+[triangle]
+
+point=1 1
+point=1 -1
+point=-1 -1
+
+
+[pentagon1] # concave pentagon
+
+point=-1 -1
+point=-1 1
+point=0 1
+point=0 0
+point=1 -1
+
+
+[pentagon2] # convex pentagon
+
+point=-1 -1
+point=-1 1
+point=0 1
+point=0.8 0.8
+point=1 -1
+
+[octogon] # convex octogon
+point = 0 1.6
+point = 0.4 2
+point = 3.6 2
+point = 4 1.6
+point = 4 0.4
+point = 3.6 0
+point = 0.4 0
+point = 0 0.4
+

@@ -1,0 +1,53 @@
+# This file contains parameters for virtual objects to avoid in the air.
+#
+
+[init]
+
+# Angle between NED coordinate system and xy plane of the obstacles CW [deg]
+# 0 = North, 90 = East, 180 = South, 270 = West
+#
+#  N   x
+#  |  /
+#  | /
+#  |----- E
+#   \_
+#      \- y
+#
+angle=0
+
+
+[obstacles]
+
+# Define a list of obstacles using the following format:
+#
+#   obstaclename.point=x y # comment, where
+#
+# x points towards the front [cm]
+# y points towards the right [cm]
+
+# Points of an obstacle should be listed in CW order
+
+#
+#   |-------|     |--------|  5
+#   |       |     |        |    --> y
+#   |-------|     |--------| -5
+# -55      -5     5        55
+
+#leftrect.point=600 -600
+#leftrect.point=-600 -600
+#leftrect.point=-600 -55500
+#leftrect.point=600 -55500
+
+#rightrect.point=600 600
+#rightrect.point=600 55500
+#rightrect.point=-600 55500
+#rightrect.point=-600 600
+
+# Concave pentagon
+
+#pentagon1.point=-1000 -1000
+#pentagon1.point=1000 -1000
+#pentagon1.point=0 0
+#pentagon1.point=0 1000
+#pentagon1.point=-1000 1000
+
