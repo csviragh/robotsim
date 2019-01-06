@@ -1,8 +1,7 @@
-/* vim:set ts=4 sw=4 sts=4 et: */
+//MIT License
+//Copyright (c) 2018 Eotvos Lorand University, Budapest
 
-/* Comments, comments, comments
- *
- */
+/* vim:set ts=4 sw=4 sts=4 et: */
 
 #ifndef ALGO_H
 #define ALGO_H
@@ -19,7 +18,7 @@
 #include "vizmode.h"
 #include "colors.h"
 
-/* Helper variables...
+/* Helper variables.
  */
 int tt;
 

@@ -1,3 +1,6 @@
+//MIT License
+//Copyright (c) 2018 Eotvos Lorand University, Budapest
+
 /* vim:set ts=4 sw=4 sts=4 et: */
 
 /* "global" variables for the evolution-compatible SPP algo

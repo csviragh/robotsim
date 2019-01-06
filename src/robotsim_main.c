@@ -1,9 +1,11 @@
+//MIT License
+//Copyright (c) 2018 Eotvos Lorand University, Budapest
+
 /* vim:set ts=4 sw=4 sts=4 et: */
 
 /*
  *
  * Main code of simulation and visualiser tool "robotsim".
- * Use it wisely!
  *
  * Programmed by Csaba Viragh
  * Eotvos Lorand University, Budapest
